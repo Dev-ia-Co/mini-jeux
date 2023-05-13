@@ -17,6 +17,12 @@ Un jeu Tic Tac Toe simple exécuté dans un conteneur Docker.
 
 - Suivez les instructions affichées dans le terminal pour jouer au jeu Tic Tac Toe.
 
+## Commandes
+
+- se déplacer dans le dossier Morpion
+- docker build -t tictactoe .
+- docker run -it --rm tictactoe
+
 ## Licence
 
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
