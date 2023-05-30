@@ -13,7 +13,7 @@ Vous trouverez ci-dessous une liste d'idées de jeux que vous pouvez implémente
 - [x] Morpion
 - [ ] Pendu
 - [ ] Jeux de Cartes : BlackJack, poker, Bataille
-- [ ] Mastermind
+- [x] Mastermind
 - [ ] Puissance 4
 
 
