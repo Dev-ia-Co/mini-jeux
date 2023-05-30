@@ -5,6 +5,7 @@ class Chifoumi:
     def __init__(self):
         self.choices = ["pierre", "feuille", "ciseaux"]
     
+    # Obtient le choix de l'utilisateur et le valide.
     def get_user_choice(self):
         while True:
             choice = input("Choisissez pierre, feuille ou ciseaux: ").lower()
@@ -12,10 +13,10 @@ class Chifoumi:
                 return choice
             else:
                 print("Choix invalide. Veuillez réessayer.")
-    
+    # Génère aléatoirement le choix de l'ordinateur.
     def get_computer_choice(self):
         return random.choice(self.choices)
-    
+    # Détermine le gagnant en comparant les choix de l'utilisateur et de l'ordinateur.
     def determine_winner(self, user_choice, computer_choice):
         if user_choice == computer_choice:
             return "match nul"
@@ -23,7 +24,7 @@ class Chifoumi:
             return "Vous avez gagné !"
         else:
             return "L'ordinateur a gagné !"
-    
+    # Lance le jeu Chifoumi.
     def play_game(self):
         print("Bienvenue dans le jeu de Chifoumi !")
         while True:
